@@ -4,7 +4,7 @@ public class Main
     public static void main(String[] args)
     {
         Scanner s=new Scanner(System.in);
-        System.out.println("Enter the temperature in Fahrenheit:");
+        System.out.println("Enter the temperature in Fahrenheit(there is a change):");
         float f=s.nextFloat();
         double c=(f-32)/1.8;
         System.out.println("-".repeat(32));
